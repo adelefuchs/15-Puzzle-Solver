@@ -1,0 +1,12 @@
+// Testing Sequence 5: Beam Search with Varying Beam Widths
+
+updateSeed 678
+
+setState 012345678
+randomizeState 19
+printState
+
+solve beam 1
+solve beam 2
+solve beam 5
+solve beam 50

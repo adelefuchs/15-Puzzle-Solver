@@ -1,0 +1,26 @@
+setState 012345678
+printState
+
+setState 012345678
+move down
+move right
+move up
+move left
+printState
+
+setState 1234567890
+
+setState 012345678
+move up
+move left
+printState
+
+setState 123456780
+printState
+
+randomizeState 50
+printState
+randomizeState 1
+printState
+randomizeState 100
+printState

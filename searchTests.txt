@@ -1,0 +1,22 @@
+//here all finish (5 moves)
+setState 012345678
+randomizeState 5
+solve astar h1
+solve astar h2
+solve beam 9
+
+//Testing maxNodes limit functionality
+maxnodes 7
+setState 012345678
+randomizeState 14
+solve astar h1
+solve astar h2
+solve beam 9
+
+
+// Testing A* Search (Heuristic 1 vs. Heuristic 2)
+maxNodes 100000000
+setState 123456780
+solve astar h1 
+solve astar h2
+solve beam 9

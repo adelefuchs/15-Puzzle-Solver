@@ -1,0 +1,22 @@
+setState 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+printState
+move down
+move right
+move up
+move left
+printState
+
+setState 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 0
+printState
+
+setState 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+move up
+move left
+printState
+
+randomizeState 50
+printState
+randomizeState 1
+printState
+randomizeState 100
+printState

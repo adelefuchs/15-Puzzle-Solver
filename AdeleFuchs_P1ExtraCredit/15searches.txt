@@ -1,0 +1,24 @@
+updateSeed 678
+//here all finish (5 moves)
+setState 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+randomizeState 5
+solve astar h1
+solve astar h2
+solve beam 9
+
+//Testing maxNodes limit functionality
+maxnodes 7
+setState 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+randomizeState 14
+solve astar h1
+solve astar h2
+solve beam 9
+
+
+// Testing A* Search (Heuristic 1 vs. Heuristic 2)
+maxNodes 100000000
+setState 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+randomizeState 39
+solve astar h1 
+solve astar h2
+solve beam 9
